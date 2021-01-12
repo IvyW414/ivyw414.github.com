@@ -1,7 +1,88 @@
+body{
+    background-color: blanchedalmond;
+    width: 1200px;
+    margin: auto;
+  
+}
+
+header{
+    text-align: center;
+}
+
 #banner{
     width: 800px;
     height: 250px;
     position: relative;
     border: 5px solid rgb(186, 207, 240);
     box-sizing: border-box;
+    margin: auto;
+
 }
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#left{
+    padding: 20px;
+    background-color: rgb(118, 148, 236);
+}
+
+#middle{
+    padding: 20px;
+    background-color: rgb(22, 145, 145);
+}
+
+#right{
+    padding: 20px;
+    background-color: aqua;
+}
+
+h1{
+    margin: 20px auto;
+    font-size: 28px;
+    padding: 0 10px;
+    padding-top: 30px;
+    font-family: 'KoHo', sans-serif;
+    color:rgb(130, 179, 235);
+}
+
+h2{
+    margin: 20px auto;
+    font-size: 24px;
+    padding: 0 10px;
+    padding-top: 30px;
+    font-family: 'KoHo', sans-serif;
+    color:rgb(130, 179, 235);
+    text-align: center;
+}
+
+ul li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    list-style-type: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background: rgb(104, 125, 156);
+    color:#333;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    border: 0.5px dotted rgb(255, 255, 255);
+    background-color: rgb(157, 184, 214);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 1200px;
+  }
