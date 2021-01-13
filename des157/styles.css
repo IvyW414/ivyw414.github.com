@@ -1,7 +1,7 @@
 body{
-    background-color: blanchedalmond;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
+    background-color: rgb(28, 48, 161);
   
 }
 
@@ -13,76 +13,109 @@ header{
     width: 800px;
     height: 250px;
     position: relative;
-    border: 5px solid rgb(186, 207, 240);
+    background:-webkit-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-o-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-moz-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
     box-sizing: border-box;
     margin: auto;
-
 }
 
+#bannerMove{
+    display: flex;
+    justify-content: space-between;
+    padding: 85px;
+}
 
+#bannerMove div {
+    width: 50px;
+    height: 70px;
+    background-color:rgb(255, 81, 0);
+    animation: animation1 4s ease-in-out infinite alternate;
+}
+
+#bannerMove div:hover {
+    transform:rotate(2475deg);
+    background:-webkit-linear-gradient(90deg, rgb(0, 249, 255) 0%, rgb(233, 0, 255) 80%);
+    background:-o-linear-gradient(90deg, rgb(0, 249, 255) 0%, rgb(233, 0, 255) 80%);
+    background:-moz-linear-gradient(90deg, rgb(0, 249, 255) 0%, rgb(233, 0, 255) 80%);
+    background:linear-gradient(90deg, rgb(0, 249, 255) 0%, rgb(233, 0, 255) 80%);
+    transition: all 5s ease;
+}
+
+@keyframes animation1 {
+    0%   {transform:scale(0.5);}
+    33%  {transform:scale(2);}
+    66%  {transform:scale(0.5);}
+    100% {transform:scale(2);}
+}
 
 #container{
     display: flex;
     justify-content: center;
+    padding: 25px;
 
 }
 
 #left{
-    padding: 20px;
+    width: 266.6px;
     background-color: rgb(118, 148, 236);
 }
 
 #middle{
-    padding: 20px;
-    background-color: rgb(22, 145, 145);
+    width: 266.6px;
+    background-color: rgb(211, 91, 175);
 }
 
 #right{
-    padding: 20px;
-    background-color: aqua;
+    width: 266.6px;
+    background-color: rgb(63, 224, 224);
 }
 
 h1{
-    margin: 20px auto;
-    font-size: 28px;
-    padding: 0 10px;
-    padding-top: 30px;
+    margin: 28px auto;
+    font-size: 48px;
     font-family: 'KoHo', sans-serif;
-    color:rgb(130, 179, 235);
+    color:rgb(255, 255, 255);
+    text-align: left;
+    max-width: 500px;
 }
 
 h2{
-    margin: 20px auto;
     font-size: 24px;
-    padding: 0 10px;
-    padding-top: 30px;
+    margin: 20px auto;
     font-family: 'KoHo', sans-serif;
-    color:rgb(130, 179, 235);
+    color:rgb(255, 255, 255);
     text-align: center;
 }
 
 ul li {
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
     list-style-type: none;
     display: block;
-    text-align: left;
-    text-decoration: none;
+    color:white;
+    margin: auto;
+    padding: 6px;
+    width: 130px;
 }
 
+
 ul li:hover {
-    background: rgb(104, 125, 156);
-    color:#333;
+    background: rgb(255, 215, 177);
 }
 
 footer{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 12px;
-    border: 0.5px dotted rgb(255, 255, 255);
-    background-color: rgb(157, 184, 214);
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    background:-webkit-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-o-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-moz-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 20px;
-    width: 1200px;
+    margin-top: 30px;
+    width: 800px;
   }
