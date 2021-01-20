@@ -9,10 +9,9 @@
     <h1>Exp: DOM</h1>
     <h2>Rainbow Theme</h2>
 
-    <p> Rainbowland is here.</p>
-    <p>There are six basic colors in the rainbow.</p>
-    <p class="green">Red, Orange, Yellow, Green, Blue, Purple</p>
-    <p>They are very colorful colors. Below is the color that I like, purple.</p>
+    <p>Welcome to Rainbowland.</p>
+    <p>There are six basic colors in the rainbow: Red, Orange, Yellow, Green, Blue, Purple.</p>
+    <p>Lots of colorful colors. Below is the color that I like, purple.</p>
 
     <section>
         <p id="one">
@@ -48,25 +47,17 @@
 
             console.log(hello(name));
             var randomColorful = colorful[ randomInt(0, colorful.length-1)];
-            var nextQues = prompt(`${name}, is ${randomColorful} your favorite color? I like purple.`);
-            console.log (`${name}, is ${randomColorful} your favorite color? I like purple.`);
-            
+            var nextQues = prompt(`${name}, is ${randomColorful} your favorite color?`);
+            console.log (`${name}, is ${randomColorful} your favorite color?`);
+            console.log (nextQues);
         }
         question(userName, color);
 
-        function end(name){
-            var ending;
-            
-            if(name == null || name == ""){
-                console.log("I see");
-            }
-            else{
-                ending = `Aww, what is it then ${name}?`;
-            }
-            return ending;
-        }
+        var answer = "I see, but I like purple.";
+        console.log(answer);
         
         document.getElementById("one").style.color = "purple";
+        document.getElementById("one").style.fontSize = "44px";
    
    </script>
     
