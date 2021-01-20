@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp: DOM</title>
+</head>
+<body>
+    <h1>Exp: DOM</h1>
+    <h2>Rainbow Theme</h2>
+
+    <p> Rainbowland is here.</p>
+    <p>There are six basic colors in the rainbow.</p>
+    <p class="green">Red, Orange, Yellow, Green, Blue, Purple</p>
+    <p>They are very colorful colors. Below is the color that I like, purple.</p>
+
+    <section>
+        <p id="one">
+            ************ ************ ************ ************ ************ ************ ************ ************ ************ </p>
+    </section>
+
+    <script>
+
+        //tried to create a simple interactive communication about the colors of the rainbow
+        
+        var userName = prompt("What is your name?", "");
+        var color = ["red", "orange", "yellow", "green", "blue", "purple"];
+
+        function hello(name){
+
+            var introduction;
+
+            if(name == null || name == ""){
+                console.log("No name inputted");
+            }
+            else{
+                introduction = `Nice to meet you ${name}, welcome to Rainbowland!`;
+            }
+
+            return introduction;
+        }
+
+        function randomInt(min, max){
+            return Math.floor((max - min + 1) * Math.random()) + min;
+        }
+
+        function question(name, colorful){
+
+            console.log(hello(name));
+            var randomColorful = colorful[ randomInt(0, colorful.length-1)];
+            var nextQues = prompt(`${name}, is ${randomColorful} your favorite color? I like purple.`);
+            console.log (`${name}, is ${randomColorful} your favorite color? I like purple.`);
+            
+        }
+        question(userName, color);
+
+        function end(name){
+            var ending;
+            
+            if(name == null || name == ""){
+                console.log("I see");
+            }
+            else{
+                ending = `Aww, what is it then ${name}?`;
+            }
+            return ending;
+        }
+        
+        document.getElementById("one").style.color = "purple";
+   
+   </script>
+    
+</body>
+</html>
