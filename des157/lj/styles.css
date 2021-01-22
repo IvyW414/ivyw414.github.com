@@ -1,0 +1,85 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(28, 48, 161);
+}
+
+header{
+    text-align: center;
+}
+
+#banner{
+    width: 800px;
+    height: 200px;
+    position: relative;
+    background:-webkit-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-o-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-moz-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1{
+    margin: 28px auto;
+    padding-top: 65px;
+    font-size: 48px;
+    font-family: 'KoHo', sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    max-width: 770px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'KoHo', sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    font-size: 14px;
+    font-family: 'KoHo', sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+#first{
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+    width: 600px;
+    background-color: rgb(118, 148, 236);
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    display: block;
+    color:white;
+    margin: auto;
+    padding: 12px;
+    width: 400px;
+    text-align: left;
+    line-height: 1.4em;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    background:-webkit-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-o-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:-moz-radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    background:radial-gradient(circle farthest-side at right center, rgb(0, 0, 0) 0%, rgb(14, 0, 86) 80%);
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    width: 800px;
+  }
