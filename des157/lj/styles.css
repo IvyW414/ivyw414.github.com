@@ -44,29 +44,29 @@ h3{
     text-align: center;
 }
 
-#first{
+article {
     justify-content: center;
     padding: 25px;
     text-align: center;
     width: 600px;
-    background-color: rgb(118, 148, 236);
+    background-color: rgb(104, 137, 236);
     position: relative;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 
 }
 
 p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    font-family: arial;
+    font-size: 14px;
     display: block;
     color:white;
     margin: auto;
     padding: 12px;
-    width: 400px;
+    width: 455px;
     text-align: left;
-    line-height: 1.4em;
+    line-height: 24px;
 }
 
 footer{
