@@ -1,0 +1,104 @@
+#myform {
+    width: 500px;
+    margin: auto;
+    height: 380px;
+    background-color: rgb(214, 188, 153);
+    box-sizing: border-box;
+    position: absolute;
+    top:200px;
+    left:730px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+    border: 1px dotted rgb(255, 255, 255);
+}
+
+#madlib {
+    width: 280px;
+    margin: auto;
+    position: absolute;
+    top:220px;
+    left:929px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(255, 245, 158);
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    border: 1px dotted rgb(247, 194, 81);
+    line-height: 25px;
+}
+
+h1 {
+    position: absolute;
+    left: 118px;
+    top: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+input {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+label {
+    font-family: arial;
+    font-size: 15px;
+}
+
+#face {
+    padding: 3px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+#enter {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    background-color: chartreuse;
+}
+
+#redo {
+    position: absolute;
+    top:490px;
+    left:550px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    background-color: rgb(231, 67, 67);
+}
+
+#worm {
+    position: absolute;
+    top:250px;
+    left:170px;
+}
+
+#sad {
+    position: absolute;
+    top:280px;
+    left:170px;
+}
+
+.hidden {
+    display:none;
+}
+
+.showing{
+    display:block;
+}
+
+footer {
+    position: absolute;
+    top: 730px;
+    left: 220px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

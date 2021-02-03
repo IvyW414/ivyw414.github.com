@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Mad Lib Script</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Is Today Detention Day?</h1>
+    </header>
+
+    <img src="images/background.jpg" alt="background" width="1366" height="768">
+
+    <main>
+        <form id="myform">
+            <label for="noun1">Provide a Noun</label>
+            <input type="text" id="noun1" placeholder="name" required>
+
+            <label for="noun2">Provide another Noun</label>
+            <input type="text" id="noun2" placeholder="place" required>
+
+            <label for="adj">Provide an Adjective</label>
+            <input type="text" id="adj" placeholder="adjective" required>
+
+            <label for="verb">Provide a Verb</label>
+            <input type="text" id="verb" placeholder="verb" required>
+        
+            <label for="adverb">Provide an Adverb</label>
+            <input type="text" id="adverb" placeholder="adverb" required>
+
+            <label for="action">Pick a facial expression</label>
+            <select id="face">
+                <option value="">---</option>
+                <option value="impressed">impressed</option>
+                <option value="irritated">irritated</option>
+            </select>
+
+            <input id="enter" type="submit" value="Send">
+
+            <input id="redo" type="reset" value="Replay">
+        </form>
+
+        <article id="madlib"></article>
+
+        <section id="worm" class="hidden">
+            <img src="images/happy.png" width="250" height="250">
+        </section>
+
+        <section id="sad" class="hidden">
+            <img src="images/sad.png" width="250" height="200">
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+    
+</body>
+</html>
