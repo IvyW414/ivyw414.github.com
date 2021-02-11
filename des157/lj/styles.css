@@ -57,6 +57,14 @@ article {
 
 }
 
+#first {
+    margin-bottom: 25px;
+}
+
+#space {
+    margin-bottom: 30px;
+}
+
 p {
     font-family: arial;
     font-size: 14px;
@@ -67,6 +75,15 @@ p {
     width: 455px;
     text-align: left;
     line-height: 24px;
+}
+
+figcaption {
+    font-family: arial;
+    font-size: 10px;
+    display: block;
+    color:white;
+    margin: auto;
+    text-align: center;
 }
 
 footer{
