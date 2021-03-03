@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    color: rgb(132, 48, 189);
+    background-image:url(images/background.jpg);
+    background-size: cover;
+}
+
+button { 
+    padding: 10px;
+    background-color: rgb(255, 201, 64);
+}
+
+div {
+    padding: 20px;
+}
+
+#gamecontrol{
+    position: absolute;
+    font-family:Impact;
+    top: 50%;
+    left: 20%;
+}
+
+#score {
+    position: absolute;
+    font-size: 20px;
+    font-family: Impact;
+    top: 60%;
+    left: 36%;
+}
+
+#game {
+    position: absolute;
+    font-family: Impact;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#actions {
+    position: absolute;
+    font-family: Impact;
+    top: 50%;
+    left: 65%;
+}
+
+#quit {
+    left:120px;
+    top: 250px;
+    width:100px;
+}
+
+.hidden {
+    display:none;
+}
+
+.showing{
+    display:block;
+}
+
+#winner {
+    position: absolute;
+    top:515px;
+    left:540px;
+}
+
+footer {
+    position: fixed;
+    top: 675px;
+    left: 110px;
+    font-family: Impact;
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgb(255, 183, 29);
+    box-sizing: border-box;
+    border: 1px double rgb(0, 0, 0);
+}
