@@ -62,6 +62,15 @@ p {
     line-height: 24px;
 }
 
+figcaption {
+    font-family: arial;
+    font-size: 12px;
+    display: block;
+    color:white;
+    margin: auto;
+    text-align: center;
+}
+
 footer{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;

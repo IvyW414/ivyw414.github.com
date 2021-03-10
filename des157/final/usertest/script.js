@@ -7,6 +7,13 @@
 
         myFunction();
 
+        let myImage = document.getElementById("two");
+
+        myImage.addEventListener("mouseover", function(e){
+        document.getElementById("texting").className="show";
+
+        });
+
         /* variables used to make up the image slider */
         let sliderContent;
         let sliderWidth;
@@ -39,5 +46,11 @@
     function myFunction() {
         alert("Hi, welcome to Ivy’s travel plog (picture log): 1. Scroll across the image slider to view the different images 2. Click on a select image 3. View the new contents on the new page 4. Find the return to homepage instruction and return to homepage 5. Repeat the steps if desired");
     }
+
+    document.getElementById("redo").addEventListener("click", function(){
+        madlib.innerHTML="";
+        document.getElementById("worm").className="hidden";
+        document.getElementById("sad").className="hidden";
+    });
 
 }());
