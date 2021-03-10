@@ -1,0 +1,107 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    background: rgb(255, 205, 129);
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    text-align: center;
+}
+
+#banner{
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 5px double rgb(0, 0, 0);
+    margin-left: 320px;
+    margin-right: 250px;
+}
+
+h1{
+    margin: 28px auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 48px;
+    font-family: 'KoHo', sans-serif;
+    text-align: left;
+    width: 550px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 14px;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+
+article {
+    justify-content: center;
+    padding: 55px;
+    text-align: center;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+#first {
+    margin-bottom: 10px;
+}
+
+#space {
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    padding: 12px;
+    width: 455px;
+    text-align: left;
+    line-height: 24px;
+}
+
+figcaption {
+    font-family: arial;
+    font-size: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    padding:25px;
+    margin: 28px auto;
+    text-align: center;
+    margin-right: 300px;
+}
+
+#end{
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 5px double rgb(0, 0, 0);
+    margin-left: 250px;
+
+}
