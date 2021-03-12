@@ -1,0 +1,134 @@
+body{
+    min-height: 100%;
+    max-width: 1400px;
+    margin: 0;  
+    padding: 0;
+    background: rgb(255, 205, 129);
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+html {
+    height: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+#banner{
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 5px double rgb(0, 0, 0);
+    margin-left: 310px;
+    margin-right: 250px;
+}
+
+h1{
+    margin: 28px auto;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 550px;
+}
+
+#returnhome {
+    top: 650px;
+    left: 210px;
+    position: fixed;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 14px;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+
+h4{
+    color:rgb(151, 140, 140);
+    text-align: center;
+}
+
+article {
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#exit {
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#first {
+    margin-bottom: 5px;
+}
+
+#space {
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: arial;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    padding: 12px;
+    width: 455px;
+    text-align: left;
+    line-height: 24px;
+}
+
+figcaption {
+    font-family: arial;
+    font-size: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    top: 650px;
+    left: 110px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 0.5px double rgb(0, 0, 0);
+}
